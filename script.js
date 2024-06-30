@@ -21,6 +21,8 @@ function efetuarLogin () {
         senha.style.border = "2px solid red";
     } else {
         alert("Login efetuado com sucesso!!!")
+        email.style.border = "2px solid green";
+        senha.style.border = "2px solid green";
     }
 }
 
@@ -38,5 +40,9 @@ function cadastrarDados(){
         nome.style.border = "2px solid red";
     } else {
         alert("Cadastro efetuado com sucesso!!!")
+        email.style.border = "2px solid green";
+        senha.style.border = "2px solid green";
+        cep.style.border = "2px solid green";
+        nome.style.border = "2px solid green";
     }
 }
