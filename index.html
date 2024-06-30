@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mapa</title>
+</head>
+<body>
+
+    <header>
+        <img src="logo(1).png" alt="">
+        <nav class="nav-bar">
+            <button onclick="cadastrar()">Sou Novo Por Aqui</button>
+            <button onclick="logar()">Já Tenho Cadastro</button>  
+        </nav>
+    </header>
+
+    <section class="conteudo">
+
+        <h1></h1>
+
+        <div class="container cadastro">
+            <h2>Cadastre-se</h2>
+            <form action="#">
+                <label for="">Nome Completo</label>
+                <input type="text" id="nome">
+                <label for="">CEP</label>
+                <input type="number" id="cep">
+                <label for="">Email</label>
+                <input type="email" id="email">
+                <label for="">Senha</label>
+                <input type="password" id="senha">
+
+                <div class="button">
+                    <button onclick="cadastrarDados()">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container login">
+            <h2>Login</h2>
+            <form action="#">
+                <label for="">Email</label>
+                <input type="email" id="emailLogin">
+                <label for="">Senha</label>
+                <input type="password" id="senhaLogin">
+
+                <div class="button">
+                    <button onclick="efetuarLogin()">entrar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
